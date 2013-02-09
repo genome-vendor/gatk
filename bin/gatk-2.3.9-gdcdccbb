@@ -1,0 +1,1 @@
+java -Xmx2048m -cp `dirname $0`/../dist/GenomeAnalysisTK.jar org.broadinstitute.sting.gatk.CommandLineGATK -l INFO -T $*
